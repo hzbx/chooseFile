@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="choose_file_app_blue">#0689FB</color>
+    <color name="choose_file_black">#000000</color>
+    <color name="choose_file_white">#ffffff</color>
+</resources>
