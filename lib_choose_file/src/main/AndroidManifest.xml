@@ -26,7 +26,7 @@
 
 
         <provider
-            android:name=".provider.ChooseFileDocumentProvider"
+            android:name="com.newki.choosefile.provider.ChooseFileDocumentProvider"
             android:authorities="com.newki.choosefile.authorities"
             android:exported="true"
             android:grantUriPermissions="true"
@@ -36,6 +36,12 @@
             </intent-filter>
         </provider>
 
+        <!--测试provider给第三方应用-->
+        <provider
+            android:authorities="com.newki.choosefile.provider.TestProvider"
+            android:exported="true"
+            android:name="com.newki.choosefile.provider.TestProvider">
+        </provider>
     </application>
 
 </manifest>
